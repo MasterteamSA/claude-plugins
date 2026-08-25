@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "flowplus": {
+      "command": "npx",
+      "args": ["-y", "flowplus-flow-mcp"],
+      "env": {
+        "FLOWPLUS_BASE_URL": "${FLOWPLUS_BASE_URL:-http://localhost:5012}",
+        "FLOWPLUS_USERNAME": "${FLOWPLUS_USERNAME}",
+        "FLOWPLUS_PASSWORD": "${FLOWPLUS_PASSWORD}",
+        "FLOWPLUS_STUDIO_URL": "${FLOWPLUS_STUDIO_URL:-http://localhost:4400}",
+        "FLOWPLUS_WRITE_ENABLED": "${FLOWPLUS_WRITE_ENABLED:-true}"
+      }
+    }
+  }
+}

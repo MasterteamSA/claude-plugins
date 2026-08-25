@@ -1,0 +1,13 @@
+{
+  "name": "flowplus",
+  "version": "0.2.0",
+  "description": "Build FlowPlus automation flows from natural language. Registers the flowplus-flow-mcp server (from npm) and the build-a-flow skill.",
+  "author": {
+    "name": "Masterteam",
+    "url": "https://github.com/MasterteamSA"
+  },
+  "homepage": "https://github.com/MasterteamSA/flowplus-flow-mcp",
+  "repository": "https://github.com/MasterteamSA/claude-plugins",
+  "license": "MIT",
+  "keywords": ["flowplus", "workflow", "automation", "mcp"]
+}
