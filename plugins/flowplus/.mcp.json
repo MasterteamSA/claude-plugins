@@ -2,7 +2,7 @@
   "mcpServers": {
     "flowplus": {
       "command": "npx",
-      "args": ["-y", "flowplus-flow-mcp"],
+      "args": ["-y", "github:MasterteamSA/flowplus-flow-mcp"],
       "env": {
         "FLOWPLUS_BASE_URL": "${FLOWPLUS_BASE_URL:-http://localhost:5012}",
         "FLOWPLUS_USERNAME": "${FLOWPLUS_USERNAME}",
